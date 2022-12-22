@@ -23,17 +23,17 @@ $( document ).ready(function() {
       correctness: false
     },
     {
-      heading: "eating",
-      questionAlt: "closeup of three pieces of vada",
-      answerAlt: "Myron holding a piece of vada, with another piece he bit out of on the plate",
-      question: "You see three pieces of crispy donut-shaped food in front of you, alongside a container of soup. How do you eat this meal?",
+      heading: "waiting",
+      questionAlt: "Myron standing in a bus shelter",
+      answerAlt: "Myron holding a wrench and looking at a bicycle pedal",
+      question: "You are waiting for the bus on your way to daycare. What do you do to pass the time?",
       answers:{
-        a: "One piece at a time, eating the whole piece before moving to the next one",
-        b: "One piece at a time, taking little bites in a circular formation around the perimiter",
-        c: "Take one bite out of each piece",
-        d: "Dip the piece into the soup and then eat the whole piece"
+        a: "Ask your papa for a tool and give his bike a tune up with it",
+        b: "Play freeze tag with your papa",
+        c: "Watch for trash trucks passing by",
+        d: "Ask for a toy truck and play with it on the sidewalk"
       },
-      correctAnswer: "c",
+      correctAnswer: "a",
       correctness: false
     },
     {
