@@ -37,29 +37,29 @@ $( document ).ready(function() {
       correctness: false
     },
     {
-      heading: "diaper",
-      questionAlt: "cloth diapers in a pile",
-      answerAlt: "Myron emerging from below pillows on a bed",
-      question: "It's morning time. Your mama tells you that it's time to change your diaper and put on different clothes for the day. How do you respond?",
+      heading: "dinos",
+      questionAlt: "Dinosaurs with mix-matched parts on a table",
+      answerAlt: "Myron smiling and shouting at dinosaurs with mix-matched parts on table",
+      question: "You encounter your magnetic toy dinosaurs with their body parts mixed up. How do you respond?",
       answers:{
-        a: "Run to a far away part of the house",
-        b: "Hide among furniture",
-        c: "Go upstairs to the diaper changing area",
-        d: "Play with toys and pretend not to hear it"
+        a: "Cry",
+        b: "Laugh",
+        c: "Quietly rearrange the parts to the correct placement",
+        d: "Say 'That's not correct!'"
       },
-      correctAnswer: "b",
+      correctAnswer: "d",
       correctness: false
     },
     {
-      heading: "cups",
-      questionAlt: "Myron at a dining table with two cups in frnot of him",
-      answerAlt: "Myron lifting up one cup on top of another and attempting to drink from the top one",
-      question: "There are two cups in front of you. You are thirsty. What do you do?",
+      heading: "glow",
+      questionAlt: "Myron swinging a glow bracelet",
+      answerAlt: "Myron close up with hand outstretched and waving out of the frame",
+      question: "You find a glow bracelet. What do you do with it?",
       answers:{
-        a: "Put one on top of the other. Hold the bottom one and try to drink from the top one.",
-        b: "Drink from one of the straws",
-        c: "Take the top off one of the cups and try to drink it like a big boy",
-        d: "Turn one of the cups over and draw a picture with the liquid that drips out"
+        a: "Turn it into a wheel and roll it across the floor",
+        b: "Put it on your wrist and dance",
+        c: "Wave it at your parents and tell them you turned them different colors",
+        d: "Go into the bathroom with the lights off so you can see it glow"
       },
       correctAnswer: "a",
       correctness: false
