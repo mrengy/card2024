@@ -15,11 +15,11 @@ $( document ).ready(function() {
       question: "Your mama has you put on a painting smock and tie string between chopsticks to make ornaments. How do you proceed?",
       answers:{
         a: "Make three of these creations and request a high-five when completing the task",
-        b: "Pick up the string with the chopsticks, pretending it is a bowl of noodles and eat the string",
-        c: "Strike nearby objects with the chopsticks as if they were drumsticks",
+        b: "Strike nearby objects with the chopsticks as if they were drumsticks and say, 'Rock on!'",
+        c: "Pick up the string with the chopsticks, pretending it is a bowl of noodles and eat the string",
         d: "Say, 'Mama, you do it.' and abandon the task"
       },
-      correctAnswer: "c",
+      correctAnswer: "b",
       correctness: false
     },
     {
