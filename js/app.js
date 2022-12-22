@@ -9,17 +9,17 @@ $( document ).ready(function() {
   const submitButton = $('#submit');
   const myQuestions = [
     {
-      heading: "dirt",
-      questionAlt: "Myron leaning on a raised garden bed",
-      answerAlt: "Myron holding a worm",
-      question: "You encounter a rectangular shaped container with wood sides and dirt in the middle. There are some plants growing from the dirt. What do you do first?",
+      heading: "crafts",
+      questionAlt: "Myron wearing a painting smock and holding two chopsticks with string stretched between them",
+      answerAlt: "Myron striking tubes of glitter glue with chopsticks as if they were drumsticks",
+      question: "Your mama has you put on a painting smock and tie string between chopsticks to make ornaments. How do you proceed?",
       answers:{
-        a: "Look for worms",
-        b: "Find a watering can and pretend to water the dirt",
-        c: "Pick up and throw the dirt as far as you can",
-        d: "Pull out plants"
+        a: "Make three of these creations and request a high-five when completing the task",
+        b: "Pick up the string with the chopsticks, pretending it is a bowl of noodles and eat the string",
+        c: "Strike nearby objects with the chopsticks as if they were drumsticks",
+        d: "Say, 'Mama, you do it.' and abandon the task"
       },
-      correctAnswer: "a",
+      correctAnswer: "c",
       correctness: false
     },
     {
