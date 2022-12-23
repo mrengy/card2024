@@ -113,7 +113,7 @@ $( document ).ready(function() {
       question: "There's a floor piano keyboard toy at Grammy K's house. What's your favorite way to play it?",
       answers:{
         a: "Ask Uncle Matt to hold you by the hands and swing you across it",
-        b: "Run in circles and play it on one part of your path",
+        b: "Sit on the floor and play it with your hands",
         c: "Run across the room and slide onto it",
         d: "Use a laser pointer and get the cats to play it"
       },
