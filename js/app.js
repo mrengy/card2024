@@ -406,12 +406,14 @@ $( document ).ready(function() {
   function showSlide(n) {
     //reset classes
     $(slides[currentSlide]).removeClass('active-slide');
-    $('button').removeClass('hide');
     $(slides[n]).addClass('active-slide');
 
-    //move buttons
+    //add buttons
     $('.active-slide .question-business').append(buttonContainerHTML);
     console.log(buttonContainerHTML);
+
+    //reset button classes
+    $('button').removeClass('hide');
 
     //show/hide buttons
     currentSlide = n;
