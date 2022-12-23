@@ -15,9 +15,9 @@ $( document ).ready(function() {
       question: "Your mama has you put on a painting smock and tie string between chopsticks to make ornaments. How do you proceed?",
       answers:{
         a: "Make three of these creations and request a high-five when completing the task",
-        b: "Strike nearby objects with the chopsticks as if they were drumsticks and say, 'Rock on!'",
+        b: "Strike nearby objects with the chopsticks as if they were drumsticks and say, \”Rock on!\” ",
         c: "Pick up the string with the chopsticks, pretending it is a bowl of noodles and eat the string",
-        d: "Say, 'Mama, you do it.' and abandon the task"
+        d: "Say, \”Mama, you do it.\” and abandon the task"
       },
       correctAnswer: "b",
       correctness: false
@@ -45,7 +45,7 @@ $( document ).ready(function() {
         a: "Cry",
         b: "Laugh",
         c: "Quietly rearrange the parts to the correct placement",
-        d: "Say 'That's not correct!'"
+        d: "Say \”That's not correct!\” "
       },
       correctAnswer: "d",
       correctness: false
@@ -65,38 +65,38 @@ $( document ).ready(function() {
       correctness: false
     },
     {
-      heading: "table",
-      questionAlt: "Myron and Molly sitting on couch, with folding end table visible",
-      answerAlt: "Myron standing on upside down table, looking proud",
-      question: "There is a folding end table in front of the couch. What do you try to do with it?",
+      heading: "pumpkin",
+      questionAlt: "Myron sitting on newspaper on the floor, holding a cut piece of pumpkin",
+      answerAlt: "Myron grimacing in front of the lit jack-o-lantern",
+      question: "Your mama helps you carve a pumpkin and put a lit candle into it. How do you respond to the jack-o-lantern?",
       answers:{
-        a: "Stand on it and use it as a surfboard",
-        b: "Flip it over and use the legs as a ladder",
-        c: "Hide under it",
-        d: "Try to keep it upright and push it around the floor"
+        a: "Try to eat it",
+        b: "Put it on your head and pretend to be the headless horseman",
+        c: "Make a menacing laugh at it",
+        d: "Grimace at it"
+      },
+      correctAnswer: "d",
+      correctness: false
+    },
+    {
+      heading: "baking",
+      questionAlt: "Myron wearing an apron with Nene turning nearby and reaching to the counter behind him",
+      answerAlt: "Myron shaking his head at the stand mixer",
+      question: "You are helping your mama and Nene (grandma) bake. What is your main contribution?",
+      answers:{
+        a: "Covering your hair in flour",
+        b: "Mimicking the stand mixer by shaking your head back and forth at it",
+        c: "Sticking your finger in a dish of sugar and licking it",
+        d: "Cracking an egg and smearing the entire contents on the countertop"
       },
       correctAnswer: "b",
       correctness: false
     },
     {
-      heading: "pants",
-      questionAlt: "Myron sitting with no clothes on",
-      answerAlt: "Pants with one leg through the top and one leg through the bottom",
-      question: "Mamma tells you to put your pants on. Do you:",
-      answers:{
-        a: "Put both legs through the top of your pants",
-        b: "Put one leg through the top and one leg through the bottom",
-        c: "Throw the pants on the floor and run away",
-        d: "Put the pants on your head"
-      },
-      correctAnswer: "b",
-      correctness: false
-    },
-    {
-      heading: "fish",
-      questionAlt: "Guppies swimming in a tank",
-      answerAlt: "Myron and daycare classmates looking into fish tank",
-      question: "There’s a large glass box with water and small fish swimming in it. How do you engage with it?",
+      heading: "camping",
+      questionAlt: "Myron and Dom sitting on a large rock in the woods",
+      answerAlt: "Myron asleep on his potty",
+      question: "You are camping with your friend, Dom. While trying to settle down for a nap, you have to get up to pee. What happens next?",
       answers:{
         a: "Face the fish. Try to have a conversation with them by saying \“blub, blub\”.",
         b: "Feed the fish Play-Doh",
