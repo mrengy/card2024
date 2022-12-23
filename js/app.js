@@ -98,26 +98,26 @@ $( document ).ready(function() {
       answerAlt: "Myron asleep on his potty",
       question: "You are camping with your friend, Dom. While trying to settle down for a nap, you have to get up to pee. What happens next?",
       answers:{
-        a: "Face the fish. Try to have a conversation with them by saying \“blub, blub\”.",
-        b: "Feed the fish Play-Doh",
-        c: "Put your toy truck in the water so that the fish can play with it",
-        d: "Try to open the can of blood worms and dump the entire thing into the water"
+        a: "You run into Dom's tent and start literally bouncing off the walls with him",
+        b: "You fall into the firepit",
+        c: "You fall asleep on the potty and get several mosquito bites",
+        d: "You sit on the potty and wake everyone up by singing \”I've been working on the railroad\” "
       },
-      correctAnswer: "a",
+      correctAnswer: "c",
       correctness: false
     },
     {
-      heading: "leaves",
-      questionAlt: "Myron in raincoat in front of leaves",
-      answerAlt: "Myron throwing leaves",
-      question: "Papa is gathering a bunch of leaves into a pile with a long stick that has little hooks on the end of it. What do you do first?",
+      heading: "keyboard",
+      questionAlt: "Floor piano keyboard on a hardwood floor",
+      answerAlt: "Uncle Matt holding Myron by the hands and swinging him across the piano keyboard",
+      question: "There's a floor piano keyboard toy at Grammy K's house. What's your favorite way to play it?",
       answers:{
-        a: "Jump in the pile",
-        b: "Help gather the leaves, using a small brush",
-        c: "Pick up a handful of leaves and throw them at Papa",
-        d: "Help gather the leaves, using the long stick"
+        a: "Ask Uncle Matt to hold you by the hands and swing you across it",
+        b: "Run in circles and play it on one part of your path",
+        c: "Run across the room and slide onto it",
+        d: "Use a laser pointer and get the cats to play it"
       },
-      correctAnswer: "c",
+      correctAnswer: "a",
       correctness: false
     },
     {
