@@ -121,29 +121,29 @@ $( document ).ready(function() {
       correctness: false
     },
     {
-      heading: "cookies",
-      questionAlt: "Myron watching Mama cut shapes into cookie dough",
-      answerAlt: "Myron eating raw cookie dough",
-      question: "Mama is making cookies by cutting some dough into shapes. How do you participate?",
+      heading: "dandelion",
+      questionAlt: "Myron in pajamas holding a dandelion while on his balance bike",
+      answerAlt: "Myron squeezing a dandelion",
+      question: "You find a dandelion while on a bike ride. How do you scatter the seeds?",
       answers:{
-        a: "Take a piece of dough and eat it",
-        b: "Roll the dough into the shape of a snake and hiss",
-        c: "Help flatten the dough with a rolling pin",
-        d: "Add some Play-Doh so that you can have another color to work with"
+        a: "Blow on the seeds",
+        b: "Shake the whole stem",
+        c: "Squeeze the seeds with your hand and then open it to release them",
+        d: "Whack the stem against a tree trunk"
       },
-      correctAnswer: "a",
+      correctAnswer: "c",
       correctness: false
     },
     {
       heading: "molly",
-      questionAlt: "Molly inside a grocery bag",
-      answerAlt: "Myron inside one bag, Molly inside another",
-      question: "Molly is playing inside a grocery bag. How do you try to play with her?",
+      questionAlt: "Miss Molly the cat snoozing on Mike's arm",
+      answerAlt: "Fish tank showing one of the guppies",
+      question: "Miss Molly has many water sources in the house. Which is her water source of choice?",
       answers:{
-        a: "Put your hand in the bag",
-        b: "Pick up the bag and carry it upright",
-        c: "Pick up the bag and turn it over",
-        d: "Get inside another bag next to her"
+        a: "A dripping faucet",
+        b: "The toilet bowl",
+        c: "The cat water fountain that circuates water so that she can see the water level",
+        d: "The fish tank"
       },
       correctAnswer: "d",
       correctness: false
