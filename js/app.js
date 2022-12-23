@@ -7,6 +7,11 @@ $( document ).ready(function() {
   const quizContainer = $('#quiz');
   const resultsContainer = $('#results');
   const submitButton = $('#submit');
+  const buttonContainer = $('#buttons');
+  const buttonContainerHTML = buttonContainer[0].outerHTML;
+  // remove the button container from the DOM once HTML is stored
+  buttonContainer.remove();
+
   const myQuestions = [
     {
       heading: "crafts",
@@ -404,6 +409,11 @@ $( document ).ready(function() {
     $('button').removeClass('hide');
     $(slides[n]).addClass('active-slide');
 
+    //move buttons
+    $('.active-slide .question-business').append(buttonContainerHTML);
+    console.log(buttonContainerHTML);
+
+    //show/hide buttons
     currentSlide = n;
     if(currentSlide === 0){
       previousButton.addClass('hide');
