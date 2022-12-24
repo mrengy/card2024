@@ -65,7 +65,7 @@ $( document ).ready(function() {
         c: "Wave it at your parents and tell them you turned them different colors",
         d: "Go into the bathroom with the lights off so you can see it glow"
       },
-      correctAnswer: "a",
+      correctAnswer: "c",
       correctness: false
     },
     {
