@@ -408,7 +408,6 @@ $( document ).ready(function() {
     //remove old buttons, add new buttons
     $('#buttons').remove();
     $('.active-slide .question-business').append(buttonContainerHTML);
-    console.log(buttonContainerHTML);
 
     //reset button classes
     $('button').removeClass('hide');
@@ -469,8 +468,8 @@ $( document ).ready(function() {
 
   // event listeners
   $('.active-slide input:radio').change(validation);
-  $('#previous').on('click', showPreviousSlide);
-  $('#next').on('click', showNextSlide);
-  $('#submit').on('click', showResults);
+  $('#quiz').on('click', '#previous', showPreviousSlide);
+  $('#quiz').on('click', '#next', showNextSlide);
+  $('#quiz').on('click', '#submit', showResults);
   $(window).resize(setQuizHeight);
 });
