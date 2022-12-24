@@ -376,8 +376,10 @@ $( document ).ready(function() {
       $('#not-correct')[0].play();
     } else if (ratio >.5 && ratio <.8){
       resultsMessage = "You did a good job."
+      $('#number-one')[0].play();
     } else{
       resultsMessage = "That was amazing!"
+      $('#number-one')[0].play();
     }
 
     //add message to top of results page
