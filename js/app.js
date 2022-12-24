@@ -6,7 +6,11 @@ $( document ).ready(function() {
   var validationPassed = true;
   const quizContainer = $('#quiz');
   const resultsContainer = $('#results');
-  const submitButton = $('#submit');
+  const buttonContainerHTML = $('#buttons')[0].outerHTML;
+
+  // remove the button container from the DOM once HTML is stored
+  $('#buttons').remove();
+
   const myQuestions = [
     {
       heading: "crafts",
@@ -355,8 +359,8 @@ $( document ).ready(function() {
     setQuizHeight();
 
     // hide all the buttons
-    previousButton.addClass('hide');
-    submitButton.addClass('hide');
+    $('#previous').addClass('hide');
+    $('#submit').addClass('hide');
 
     // hide the quizParent
     $('#quizParent').addClass('hide');
@@ -393,25 +397,30 @@ $( document ).ready(function() {
   buildQuiz();
 
   // pagination
-  const previousButton = $('#previous');
-  const nextButton = $('#next');
   const slides = $('.slide');
   let currentSlide = 0;
 
   function showSlide(n) {
     //reset classes
     $(slides[currentSlide]).removeClass('active-slide');
-    $('button').removeClass('hide');
     $(slides[n]).addClass('active-slide');
 
+    //remove old buttons, add new buttons
+    $('#buttons').remove();
+    $('.active-slide .question-business').append(buttonContainerHTML);
+
+    //reset button classes
+    $('button').removeClass('hide');
+
+    //show/hide buttons
     currentSlide = n;
     if(currentSlide === 0){
-      previousButton.addClass('hide');
+      $('#previous').addClass('hide');
     }
     if(currentSlide === slides.length-1) {
-      nextButton.addClass('hide');
+      $('#next').addClass('hide');
     } else {
-      submitButton.addClass('hide');
+      $('#submit').addClass('hide');
     }
 
     // for subsequent slides, run immediately
@@ -459,8 +468,8 @@ $( document ).ready(function() {
 
   // event listeners
   $('.active-slide input:radio').change(validation);
-  previousButton.on('click', showPreviousSlide);
-  nextButton.on('click', showNextSlide);
-  submitButton.on('click', showResults);
+  $('#quiz').on('click', '#previous', showPreviousSlide);
+  $('#quiz').on('click', '#next', showNextSlide);
+  $('#quiz').on('click', '#submit', showResults);
   $(window).resize(setQuizHeight);
 });
