@@ -7,7 +7,7 @@ $( document ).ready(function() {
   const quizContainer = $('#quiz');
   const resultsContainer = $('#results');
   const buttonContainerHTML = $('#buttons')[0].outerHTML;
-  
+
   // remove the button container from the DOM once HTML is stored
   $('#buttons').remove();
 
@@ -405,7 +405,8 @@ $( document ).ready(function() {
     $(slides[currentSlide]).removeClass('active-slide');
     $(slides[n]).addClass('active-slide');
 
-    //add buttons
+    //remove old buttons, add new buttons
+    $('#buttons').remove();
     $('.active-slide .question-business').append(buttonContainerHTML);
     console.log(buttonContainerHTML);
 
