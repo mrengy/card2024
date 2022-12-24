@@ -6,11 +6,10 @@ $( document ).ready(function() {
   var validationPassed = true;
   const quizContainer = $('#quiz');
   const resultsContainer = $('#results');
-  const submitButton = $('#submit');
-  const buttonContainer = $('#buttons');
-  const buttonContainerHTML = buttonContainer[0].outerHTML;
+  const buttonContainerHTML = $('#buttons')[0].outerHTML;
+  
   // remove the button container from the DOM once HTML is stored
-  buttonContainer.remove();
+  $('#buttons').remove();
 
   const myQuestions = [
     {
@@ -360,8 +359,8 @@ $( document ).ready(function() {
     setQuizHeight();
 
     // hide all the buttons
-    previousButton.addClass('hide');
-    submitButton.addClass('hide');
+    $('#previous').addClass('hide');
+    $('#submit').addClass('hide');
 
     // hide the quizParent
     $('#quizParent').addClass('hide');
@@ -398,8 +397,6 @@ $( document ).ready(function() {
   buildQuiz();
 
   // pagination
-  const previousButton = $('#previous');
-  const nextButton = $('#next');
   const slides = $('.slide');
   let currentSlide = 0;
 
@@ -418,12 +415,12 @@ $( document ).ready(function() {
     //show/hide buttons
     currentSlide = n;
     if(currentSlide === 0){
-      previousButton.addClass('hide');
+      $('#previous').addClass('hide');
     }
     if(currentSlide === slides.length-1) {
-      nextButton.addClass('hide');
+      $('#next').addClass('hide');
     } else {
-      submitButton.addClass('hide');
+      $('#submit').addClass('hide');
     }
 
     // for subsequent slides, run immediately
@@ -471,8 +468,8 @@ $( document ).ready(function() {
 
   // event listeners
   $('.active-slide input:radio').change(validation);
-  previousButton.on('click', showPreviousSlide);
-  nextButton.on('click', showNextSlide);
-  submitButton.on('click', showResults);
+  $('#previous').on('click', showPreviousSlide);
+  $('#next').on('click', showNextSlide);
+  $('#submit').on('click', showResults);
   $(window).resize(setQuizHeight);
 });
