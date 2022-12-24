@@ -372,6 +372,8 @@ $( document ).ready(function() {
 
     if (ratio <= .5){
       resultsMessage = "The important thing is that you tried."
+      // play audio
+      $('#not-correct')[0].play();
     } else if (ratio >.5 && ratio <.8){
       resultsMessage = "You did a good job."
     } else{
