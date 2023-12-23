@@ -30,7 +30,7 @@ $( document ).ready(function() {
       heading: "breakfast",
       questionAlt: "Myron smiling with his eyes closed, wearing pajamas with some food residue visible around his mouth",
       answerAlt: "Myron smiling with his mouth open and a plate with a pancake and berries in front of him",
-      question: "What is our favorite breakfast item when we go to our neighborhood diner (or have a special breakfast at preschool?",
+      question: "What is Myron's favorite breakfast item when he goes to our neighborhood diner (or have a special breakfast at preschool?",
       answers:{
         a: "Eggs",
         b: "Pancakes",
