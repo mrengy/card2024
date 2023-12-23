@@ -169,12 +169,12 @@ $( document ).ready(function() {
     return(`
       <img
          alt="${alt}"
-         src="img/${imgname}_m.jpg"
+         src="img/${imgname}_m.jpeg"
          srcset="
-            img/${imgname}_s.jpg 600w,
-            img/${imgname}_m.jpg 1096w,
-            img/${imgname}_l.jpg 1284w,
-            img/${imgname}_xl.jpg 1540w,
+            img/${imgname}_s.jpeg 600w,
+            img/${imgname}_m.jpeg 1096w,
+            img/${imgname}_l.jpeg 1284w,
+            img/${imgname}_xl.jpeg 1540w,
          "
          sizes="
          (min-width: 1136px) 1096px,
