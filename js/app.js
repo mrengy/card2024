@@ -13,143 +13,143 @@ $( document ).ready(function() {
 
   const myQuestions = [
     {
-      heading: "crafts",
-      questionAlt: "Myron wearing a painting smock and holding two chopsticks with string stretched between them",
-      answerAlt: "Myron striking tubes of glitter glue with chopsticks as if they were drumsticks",
-      question: "Your mama has you put on a painting smock and tie string between chopsticks to make ornaments. How do you proceed?",
+      heading: "guppy",
+      questionAlt: "Myron looking into our aquarium",
+      answerAlt: "closeup of guppy in our aquarium. He is backlit with gold and blue visible on his caudal and dorsal fins",
+      question: "We got a new guppy. What did Myron name him?",
       answers:{
-        a: "Make three of these creations and request a high-five when completing the task",
-        b: "Strike nearby objects with the chopsticks as if they were drumsticks and say, \”Rock on!\” ",
-        c: "Pick up the string with the chopsticks, pretending it is a bowl of noodles and eat the string",
-        d: "Say, \”Mama, you do it.\” and abandon the task"
-      },
-      correctAnswer: "b",
-      correctness: false
-    },
-    {
-      heading: "waiting",
-      questionAlt: "Myron standing in a bus shelter",
-      answerAlt: "Myron holding a wrench and looking at a bicycle pedal",
-      question: "You are waiting for the bus on your way to daycare. What do you do to pass the time?",
-      answers:{
-        a: "Ask your papa for a tool and give his bike a tune up with it",
-        b: "Play freeze tag with your papa",
-        c: "Watch for trash trucks passing by",
-        d: "Ask for a toy truck and play with it on the sidewalk"
+        a: "Blue",
+        b: "Nemo",
+        c: "Mr. Fish",
+        d: "Seymour"
       },
       correctAnswer: "a",
       correctness: false
     },
     {
-      heading: "dinos",
-      questionAlt: "Dinosaurs with mix-matched parts on a table",
-      answerAlt: "Myron smiling and shouting at dinosaurs with mix-matched parts on table",
-      question: "You encounter your magnetic toy dinosaurs with their body parts mixed up. How do you respond?",
+      heading: "breakfast",
+      questionAlt: "Myron smiling with his eyes closed, wearing pajamas with some food residue visible around his mouth",
+      answerAlt: "Myron smiling with his mouth open and a plate with a pancake and berries in front of him",
+      question: "What is our favorite breakfast item when we go to our neighborhood diner (or have a special breakfast at preschool?",
       answers:{
-        a: "Cry",
-        b: "Laugh",
-        c: "Quietly rearrange the parts to the correct placement",
-        d: "Say \”That's not correct!\” "
-      },
-      correctAnswer: "d",
-      correctness: false
-    },
-    {
-      heading: "glow",
-      questionAlt: "Myron swinging a glow bracelet",
-      answerAlt: "Myron close up with hand outstretched and waving out of the frame",
-      question: "You find a glow bracelet. What do you do with it?",
-      answers:{
-        a: "Turn it into a wheel and roll it across the floor",
-        b: "Put it on your wrist and dance",
-        c: "Wave it at your parents and tell them you turned them different colors",
-        d: "Go into the bathroom with the lights off so you can see it glow"
-      },
-      correctAnswer: "c",
-      correctness: false
-    },
-    {
-      heading: "pumpkin",
-      questionAlt: "Myron sitting on newspaper on the floor, holding a cut piece of pumpkin",
-      answerAlt: "Myron grimacing in front of the lit jack-o-lantern",
-      question: "Your mama helps you carve a pumpkin and put a lit candle into it. How do you respond to the jack-o-lantern?",
-      answers:{
-        a: "Try to eat it",
-        b: "Put it on your head and pretend to be the headless horseman",
-        c: "Make a menacing laugh at it",
-        d: "Grimace at it"
-      },
-      correctAnswer: "d",
-      correctness: false
-    },
-    {
-      heading: "baking",
-      questionAlt: "Myron wearing an apron with Nene turning nearby and reaching to the counter behind him",
-      answerAlt: "Myron shaking his head at the stand mixer",
-      question: "You are helping your mama and Nene (grandma) bake. What is your main contribution?",
-      answers:{
-        a: "Covering your hair in flour",
-        b: "Mimicking the stand mixer by shaking your head back and forth at it",
-        c: "Sticking your finger in a dish of sugar and licking it",
-        d: "Cracking an egg and smearing the entire contents on the countertop"
+        a: "Eggs",
+        b: "Pancakes",
+        c: "Waffles",
+        d: "Hash browns"
       },
       correctAnswer: "b",
       correctness: false
     },
     {
-      heading: "camping",
-      questionAlt: "Myron and Dom sitting on a large rock in the woods",
-      answerAlt: "Myron asleep on his potty",
-      question: "You are camping with your friend, Dom. While trying to settle down for a nap, you have to get up to pee. What happens next?",
+      heading: "visits",
+      questionAlt: "Myron, Em, and Caitlin sitting around a dinner table with dirty dishes",
+      answerAlt: "Myron wearing a Batman mask",
+      question: "We had a surprise visit from a friend who joined us for dinner. It was fun for everyone except Myron (at first). How did our guest win Myron over?",
       answers:{
-        a: "You run into Dom's tent and start literally bouncing off the walls with him",
-        b: "You fall into the firepit",
-        c: "You fall asleep on the potty and get several mosquito bites",
-        d: "You sit on the potty and wake everyone up by singing \”I've been working on the railroad\” "
+        a: "By making fart noises",
+        b: "By putting on a Batman mask",
+        c: "By playing peek-a-boo",
+        d: "By telling a knock-knock joke"
       },
-      correctAnswer: "c",
+      correctAnswer: "b",
       correctness: false
     },
     {
-      heading: "keyboard",
-      questionAlt: "Floor piano keyboard on a hardwood floor",
-      answerAlt: "Uncle Matt holding Myron by the hands and swinging him across the piano keyboard",
-      question: "There's a floor piano keyboard toy at Grammy K's house. What's your favorite way to play it?",
+      heading: "planes",
+      questionAlt: "Myron standing on a moving sidewalk in an airport, wearing a backpack and eating water ice with a spoon",
+      answerAlt: "Myron seated in an airplane seat, throwing Mike's hand up",
+      question: "We flew to California a couple of times this year - to visit family and friends in San Luis Obispo and San Jose, and to celebrate Aunt Linda’s birthday. What was Myron’s favorite way to pass the time in the plane when we were on the ground and couldn’t watch movies?",
       answers:{
-        a: "Ask Uncle Matt to hold you by the hands and swing you across it",
-        b: "Sit on the floor and play it with your hands",
-        c: "Run across the room and slide onto it",
-        d: "Use a laser pointer and get the cats to play it"
+        a: "Reading books",
+        b: "Seated dancing",
+        c: "Pretending to be superheroes",
+        d: "Pretending papa’s hand was pizza dough and tossing it"
+      },
+      correctAnswer: "d",
+      correctness: false
+    },
+    {
+      heading: "allentown",
+      questionAlt: "Myron seated in a stadium with a drum and bugle corps performing on the field. Myron is turning to Uncle Matt and smiling",
+      answerAlt: "Myron pushing a gate closed and looking intently at it with Grammy K in the background, standing over a bed with someone in it. Grammy K has the heels of her hand pressed against her mouth.",
+      question: "We saw a drum & bugle corps show in Allentown. When it was time to check out of our rental house, how did Myron help wake everyone up?",
+      answers:{
+        a: "Making fart noises with Grammy K",
+        b: "Singing Smoke on the Water",
+        c: "Roaring like a dinosaur",
+        d: "Jumping on their beds"
       },
       correctAnswer: "a",
       correctness: false
     },
     {
-      heading: "dandelion",
-      questionAlt: "Myron in pajamas holding a dandelion while on his balance bike",
-      answerAlt: "Myron squeezing a dandelion",
-      question: "You find a dandelion while on a bike ride. How do you scatter the seeds?",
+      heading: "swimming",
+      questionAlt: "Myron seated on deck stairs, wearing goggles, a personal floatation device, and swim trunks and holding a pool noodle",
+      answerAlt: "Myron squirting Mike in the face with a pool noodle",
+      question: "We spent some time at our friends’ swimming pool celebrating another friend’s birthday. What was Myron’s favorite way to play in the pool?",
       answers:{
-        a: "Blow on the seeds",
-        b: "Shake the whole stem",
-        c: "Squeeze the seeds with your hand and then open it to release them",
-        d: "Whack the stem against a tree trunk"
+        a: "Doing cannonballs",
+        b: "Riding on a floating chair",
+        c: "Attaching a pool noodle to a jet and spraying Papa’s face with the other end",
+        d: "Pushing Papa in the pool"
       },
       correctAnswer: "c",
       correctness: false
     },
     {
-      heading: "molly",
-      questionAlt: "Miss Molly the cat snoozing on Mike's arm",
-      answerAlt: "Fish tank showing one of the guppies",
-      question: "Miss Molly has many water sources in the house. Which is her water source of choice?",
+      heading: "gift",
+      questionAlt: "Em seated on the floor, hugging Myron and Dominic, who are both seated on her lap",
+      answerAlt: "Two ant farms on a table. Dominic is looking at one of the ant farms.",
+      question: "Myron and his best friend, Dominic each got one of a certain science-y gift this year that didn’t last very long. What was it?",
       answers:{
-        a: "A dripping faucet",
-        b: "The toilet bowl",
-        c: "The cat water fountain that circuates water so that she can see the water level",
-        d: "The fish tank"
+        a: "A garden kit",
+        b: "An ant farm",
+        c: "A crystal growing kit",
+        d: "A microscope"
+      },
+      correctAnswer: "b",
+      correctness: false
+    },
+    {
+      heading: "forest",
+      questionAlt: "Myron wearing rain boots and walking to the side of a path in the woods",
+      answerAlt: "Myron walking aongside a miniature train bridge in the woods",
+      question: "What was our favorite thing to find in the forest this year?",
+      answers:{
+        a: "A miniature train village",
+        b: "A fox",
+        c: "A large collection of edible mushrooms",
+        d: "A story with pages spread out along a trail"
+      },
+      correctAnswer: "a",
+      correctness: false
+    },
+    {
+      heading: "monitor",
+      questionAlt: "Myron seated at the dining table with a mostly-eaten bowl of grits in front of him, wearing a bib and noise-protecting ear muffs on his head with his elbows out",
+      answerAlt: "Myron pushing buttons on the baby monitor parent unit, with an instructional video displayed on the screen",
+      question: "Myron discovered the parent unit of our baby monitor this year. What was his favorite way to play with it?",
+      answers:{
+        a: "Having one person dance in his room while he watched them from the parent unit",
+        b: "Shouting and hearing his echo come through the parent unit",
+        c: "Holding the parent unit up to the camera to create an infinite mirror effect",
+        d: "Watching the instructions for connecting the monitor to wi-fi"
       },
       correctAnswer: "d",
+      correctness: false
+    },
+    {
+      heading: "door",
+      questionAlt: "Miss Molly the cat seated next to Myron while Myron draws a maze with markers",
+      answerAlt: "Myron's foot with a sock on it, stuck through the cat door",
+      question: "Miss Molly has a cat door in an interior door that leads to the basement. Aside from letting Molly go through the door to her litter box, what other purpose does it serve?",
+      answers:{
+        a: "Myron puts toilet paper through it",
+        b: "Myron likes to try to squeeze himself through it",
+        c: "Myron puts his clothes through it after he uses the bathroom",
+        d: "Myron puts action figures through it, pretending it’s a portal to another dimension"
+      },
+      correctAnswer: "b",
       correctness: false
     }
   ]
