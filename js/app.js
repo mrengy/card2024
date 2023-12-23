@@ -374,7 +374,7 @@ $( document ).ready(function() {
       // play audio
       $('#not-correct')[0].play();
     } else if (ratio >.5 && ratio <.8){
-      resultsMessage = "You did a good job."
+      resultsMessage = "Not bad."
       $('#number-one')[0].play();
     } else{
       resultsMessage = "That was amazing!"
