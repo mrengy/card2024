@@ -209,7 +209,6 @@ $( document ).ready(function() {
           answers.push(
             `<label>
               <input type="radio" name="question${questionNumber}" value="${letter}" disabled>
-              ${letter} :
               ${currentQuestion.answers[letter]}
             </label>`
           );
