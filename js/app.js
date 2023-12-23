@@ -72,7 +72,7 @@ $( document ).ready(function() {
       heading: "allentown",
       questionAlt: "Myron seated in a stadium with a drum and bugle corps performing on the field. Myron is turning to Uncle Matt and smiling",
       answerAlt: "Myron pushing a gate closed and looking intently at it with Grammy K in the background, standing over a bed with someone in it. Grammy K has the heels of her hand pressed against her mouth.",
-      question: "We saw a drum & bugle corps show in Allentown. When it was time to check out of our rental house, how did Myron help wake everyone up?",
+      question: "We saw a drum & bugle corps show in Allentown, PA. When it was time to check out of our rental house, how did Myron help wake everyone up?",
       answers:{
         a: "Making fart noises with Grammy K",
         b: "Singing Smoke on the Water",
