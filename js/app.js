@@ -370,7 +370,7 @@ $( document ).ready(function() {
     var resultsMessage = "Not bad.";
 
     if (ratio <= .5){
-      resultsMessage = "The important thing is that you tried."
+      resultsMessage = "It's a tough quiz!"
       // play audio
       $('#not-correct')[0].play();
     } else if (ratio >.5 && ratio <.8){
