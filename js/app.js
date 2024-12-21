@@ -178,7 +178,9 @@ $( document ).ready(function() {
         d: "Cranston Street Armory"
       },
       correctAnswer: "c",
-      correctness: false
+      correctness: false, 
+
+      link: "https://www.secretmallapartment.com/"
     }
   ]
 
@@ -377,6 +379,12 @@ $( document ).ready(function() {
             </div>`
           )
       }
+      
+      // if there's a link to learn more, show it
+      if (typeof currentQuestion.link !== 'undefined'){
+        console.log('link');
+      }
+
 
     }); // end of foreach
 
