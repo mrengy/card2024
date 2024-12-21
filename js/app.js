@@ -394,7 +394,7 @@ $( document ).ready(function() {
 
     //calculate percentage correct
     var ratio = (numCorrect / myQuestions.length);
-    const percentage = ((numCorrect / myQuestions.length)*100) + '%';
+    const percentage = Math.round(((numCorrect / myQuestions.length)*100)) + '%';
     var resultsMessage = "Not bad.";
 
     if (ratio <= .5){
