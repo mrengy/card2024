@@ -151,6 +151,34 @@ $( document ).ready(function() {
       },
       correctAnswer: "b",
       correctness: false
+    },
+    {
+      heading: "california",
+      questionAlt: "Miss Molly the cat seated next to Myron while Myron draws a maze with markers",
+      answerAlt: "Myron's foot with a sock on it, stuck through the cat door",
+      question: "When Mike was in California for a baptism, from what situation did a friend have to rescue him and another friend?",
+      answers:{
+        a: "A bear attack",
+        b: "A capsized sailboat",
+        c: "A snake bite",
+        d: "Getting stranded on the freeway"
+      },
+      correctAnswer: "b",
+      correctness: false
+    },
+    {
+      heading: "documentary",
+      questionAlt: "Miss Molly the cat seated next to Myron while Myron draws a maze with markers",
+      answerAlt: "Myron's foot with a sock on it, stuck through the cat door",
+      question: "South by Southwest premiered a documentary featuring a 20 year old art project that Emily did in what location?",
+      answers:{
+        a: "Central Park, NYC",
+        b: "Salem College",
+        c: "Providence Place Mall",
+        d: "Cranston Street Armory"
+      },
+      correctAnswer: "c",
+      correctness: false
     }
   ]
 
