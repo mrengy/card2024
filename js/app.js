@@ -51,7 +51,7 @@ $( document ).ready(function() {
         c: "A tub full of Cheerios",
         d: "A robot parade"
       },
-      correctAnswer: "b",
+      correctAnswer: "d",
       correctness: false
     },
     {
