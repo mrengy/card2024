@@ -13,141 +13,141 @@ $( document ).ready(function() {
 
   const myQuestions = [
     {
-      heading: "guppy",
+      heading: "award",
       questionAlt: "Myron looking into our aquarium",
       answerAlt: "closeup of guppy in our aquarium. He is backlit with gold and blue visible on his caudal and dorsal fins",
-      question: "We got a new guppy. What did Myron name him?",
+      question: "What award did Myron receive at the end of his Pre-K school year?",
       answers:{
-        a: "Blue",
-        b: "Nemo",
-        c: "Mr. Fish",
-        d: "Seymour"
-      },
-      correctAnswer: "a",
-      correctness: false
-    },
-    {
-      heading: "breakfast",
-      questionAlt: "Myron smiling with his eyes closed, wearing pajamas with some food residue visible around his mouth",
-      answerAlt: "Myron smiling with his mouth open and a plate with a pancake and berries in front of him",
-      question: "What is Myron's favorite breakfast item when he goes to our neighborhood diner (or has a special breakfast at preschool)?",
-      answers:{
-        a: "Eggs",
-        b: "Pancakes",
-        c: "Waffles",
-        d: "Hash browns"
-      },
-      correctAnswer: "b",
-      correctness: false
-    },
-    {
-      heading: "visits",
-      questionAlt: "Myron, Em, and Caitlin sitting around a dinner table with dirty dishes",
-      answerAlt: "Myron wearing a Batman mask",
-      question: "We had a surprise visit from a friend who joined us for dinner. It was fun for everyone except Myron (at first). How did our guest win Myron over?",
-      answers:{
-        a: "By making fart noises",
-        b: "By putting on a Batman mask",
-        c: "By playing peek-a-boo",
-        d: "By telling a knock-knock joke"
-      },
-      correctAnswer: "b",
-      correctness: false
-    },
-    {
-      heading: "planes",
-      questionAlt: "Myron standing on a moving sidewalk in an airport, wearing a backpack and eating water ice with a spoon",
-      answerAlt: "Myron seated in an airplane seat, throwing Mike's hand up",
-      question: "We flew to California a couple of times this year - to visit family and friends in San Luis Obispo and San Jose, and to celebrate Aunt Linda’s birthday. What was Myron’s favorite way to pass the time in the plane when we were on the ground and couldn’t watch movies?",
-      answers:{
-        a: "Reading books",
-        b: "Seated dancing",
-        c: "Pretending to be superheroes",
-        d: "Pretending papa’s hand was pizza dough and tossing it"
+        a: "Gardener",
+        b: "Most talkative",
+        c: "Most creative",
+        d: "Bookworm"
       },
       correctAnswer: "d",
       correctness: false
     },
     {
-      heading: "allentown",
+      heading: "theater",
+      questionAlt: "Myron smiling with his eyes closed, wearing pajamas with some food residue visible around his mouth",
+      answerAlt: "Myron smiling with his mouth open and a plate with a pancake and berries in front of him",
+      question: "What part did Myron play in his summer theater camp production of The Rainbow Fish?",
+      answers:{
+        a: "The rainbow fish",
+        b: "The octopus",
+        c: "The blue fish",
+        d: "The seahorse"
+      },
+      correctAnswer: "b",
+      correctness: false
+    },
+    {
+      heading: "birthday",
+      questionAlt: "Myron, Em, and Caitlin sitting around a dinner table with dirty dishes",
+      answerAlt: "Myron wearing a Batman mask",
+      question: "How did we celebrate Myron’s 5th Birthday",
+      answers:{
+        a: "A bounce house",
+        b: "Bumper cars",
+        c: "A tub full of Cheerios",
+        d: "A robot parade"
+      },
+      correctAnswer: "b",
+      correctness: false
+    },
+    {
+      heading: "sports",
+      questionAlt: "Myron standing on a moving sidewalk in an airport, wearing a backpack and eating water ice with a spoon",
+      answerAlt: "Myron seated in an airplane seat, throwing Mike's hand up",
+      question: "What new sport did Myron and Mike participate in all year?",
+      answers:{
+        a: "Swimming",
+        b: "Rock climbing",
+        c: "Break dancing",
+        d: "Skateboarding"
+      },
+      correctAnswer: "b",
+      correctness: false
+    },
+    {
+      heading: "superlative",
       questionAlt: "Myron seated in a stadium with a drum and bugle corps performing on the field. Myron is turning to Uncle Matt and smiling",
       answerAlt: "Myron pushing a gate closed and looking intently at it with Grammy K in the background, standing over a bed with someone in it. Grammy K has the heels of her hand pressed against her mouth.",
-      question: "We saw a drum & bugle corps show in Allentown, PA. When it was time to check out of our rental house, how did Myron help wake everyone up?",
+      question: "What superlative did we see this year?",
       answers:{
-        a: "Making fart noises with Grammy K",
-        b: "Singing Smoke on the Water",
-        c: "Roaring like a dinosaur",
-        d: "Jumping on their beds"
+        a: "The largest unsupported dome structure",
+        b: "The largest species of animal",
+        c: "The largest car made out of toothpicks",
+        d: "The world’s widest tree"
+      },
+      correctAnswer: "d",
+      correctness: false
+    },
+    {
+      heading: "creature",
+      questionAlt: "Myron seated on deck stairs, wearing goggles, a personal floatation device, and swim trunks and holding a pool noodle",
+      answerAlt: "Myron squirting Mike in the face with a pool noodle",
+      question: "What mythical creature did Myron hunt in our local park?",
+      answers:{
+        a: "A leprechaun",
+        b: "A fairy",
+        c: "A sasquatch",
+        d: "A unicorn"
       },
       correctAnswer: "a",
       correctness: false
     },
     {
-      heading: "swimming",
-      questionAlt: "Myron seated on deck stairs, wearing goggles, a personal floatation device, and swim trunks and holding a pool noodle",
-      answerAlt: "Myron squirting Mike in the face with a pool noodle",
-      question: "We spent some time at our friends’ swimming pool celebrating another friend’s birthday. What was Myron’s favorite way to play in the pool?",
+      heading: "halloween",
+      questionAlt: "Em seated on the floor, hugging Myron and Dominic, who are both seated on her lap",
+      answerAlt: "Two ant farms on a table. Dominic is looking at one of the ant farms.",
+      question: "What did Myron dress up as for Halloween?",
       answers:{
-        a: "Doing cannonballs",
-        b: "Riding on a floating chair",
-        c: "Attaching a pool noodle to a jet and spraying Papa’s face with the other end",
-        d: "Pushing Papa in the pool"
+        a: "A robot",
+        b: "Gigantosaurus",
+        c: "Martin Kratt",
+        d: "A skeleton"
+      },
+      correctAnswer: "b",
+      correctness: false
+    },
+    {
+      heading: "food",
+      questionAlt: "Myron wearing rain boots and walking to the side of a path in the woods",
+      answerAlt: "Myron walking aongside a miniature train bridge in the woods",
+      question: "When we visited a foreign city this year, what new food did Em and Myron try?",
+      answers:{
+        a: "Snake",
+        b: "Scorpions",
+        c: "Grasshoppers",
+        d: "Tripe"
       },
       correctAnswer: "c",
       correctness: false
     },
     {
-      heading: "gift",
-      questionAlt: "Em seated on the floor, hugging Myron and Dominic, who are both seated on her lap",
-      answerAlt: "Two ant farms on a table. Dominic is looking at one of the ant farms.",
-      question: "Myron and his best friend, Dominic each got one of a certain science-y gift this year that didn’t last very long. What was it?",
+      heading: "phrase",
+      questionAlt: "Myron seated at the dining table with a mostly-eaten bowl of grits in front of him, wearing a bib and noise-protecting ear muffs on his head with his elbows out",
+      answerAlt: "Myron pushing buttons on the baby monitor parent unit, with an instructional video displayed on the screen",
+      question: "Myron spent a lot of time with Mike’s friends. What phrase did he pick up from them?",
       answers:{
-        a: "A garden kit",
-        b: "An ant farm",
-        c: "A crystal growing kit",
-        d: "A microscope"
-      },
-      correctAnswer: "b",
-      correctness: false
-    },
-    {
-      heading: "forest",
-      questionAlt: "Myron wearing rain boots and walking to the side of a path in the woods",
-      answerAlt: "Myron walking aongside a miniature train bridge in the woods",
-      question: "What was our favorite thing to find in the forest this year?",
-      answers:{
-        a: "A miniature train village",
-        b: "A fox",
-        c: "A large collection of edible mushrooms",
-        d: "A story with pages spread out along a trail"
+        a: "Sick, man!",
+        b: "That’s what she said",
+        c: "If you’re gonna spew, spew into this",
+        d: "Wicked"
       },
       correctAnswer: "a",
       correctness: false
     },
     {
-      heading: "monitor",
-      questionAlt: "Myron seated at the dining table with a mostly-eaten bowl of grits in front of him, wearing a bib and noise-protecting ear muffs on his head with his elbows out",
-      answerAlt: "Myron pushing buttons on the baby monitor parent unit, with an instructional video displayed on the screen",
-      question: "Myron discovered the parent unit of our baby monitor this year. What was his favorite way to play with it?",
-      answers:{
-        a: "Having one person dance in his room while he watched them from the parent unit",
-        b: "Shouting and hearing his echo come through the parent unit",
-        c: "Holding the parent unit up to the camera to create an infinite mirror effect",
-        d: "Watching the instructions for connecting the monitor to wi-fi"
-      },
-      correctAnswer: "d",
-      correctness: false
-    },
-    {
-      heading: "door",
+      heading: "thanksgiving",
       questionAlt: "Miss Molly the cat seated next to Myron while Myron draws a maze with markers",
       answerAlt: "Myron's foot with a sock on it, stuck through the cat door",
-      question: "Miss Molly has a cat door in an interior door that leads to the basement. Aside from letting Molly go through the door to her litter box, what other purpose does it serve?",
+      question: "We hosted Thanksgiving this year for the first time. What was Mike’s favorite dish?",
       answers:{
-        a: "Myron puts toilet paper through it",
-        b: "Myron likes to try to squeeze himself through it",
-        c: "Myron puts his clothes through it after he uses the bathroom",
-        d: "Myron puts action figures through it, pretending it’s a portal to another dimension"
+        a: "Acorn squash bake",
+        b: "Mushroom wellington",
+        c: "Collards",
+        d: "Cranberries"
       },
       correctAnswer: "b",
       correctness: false
