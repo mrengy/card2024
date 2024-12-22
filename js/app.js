@@ -180,7 +180,8 @@ $( document ).ready(function() {
       correctAnswer: "c",
       correctness: false, 
 
-      link: "https://www.secretmallapartment.com/"
+      link: "https://www.secretmallapartment.com/",
+      linkText: "Learn more about the Secret Mall Apartment documentary"
     }
   ]
 
@@ -429,7 +430,9 @@ $( document ).ready(function() {
         $("#question-"+questionNumber+" .answer-business").append(
          `
          <div class="link">
-          ${currentQuestion.link}
+          <a href="${currentQuestion.link}">
+            ${currentQuestion.linkText}
+          </a>
          </div>
          ` 
         );
