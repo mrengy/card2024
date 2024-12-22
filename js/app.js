@@ -7,7 +7,6 @@ $( document ).ready(function() {
   const quizContainer = $('#quiz');
   const resultsContainer = $('#results');
   const buttonContainerHTML = $('#buttons')[0].outerHTML;
-  var questionNum = 1;
 
   // remove the button container from the DOM once HTML is stored
   $('#buttons').remove();
@@ -328,7 +327,7 @@ $( document ).ready(function() {
 
           // add question and answer to output
           output.push(
-            `<div class="result-slide grid-x grid-padding-x correct" id="question-${questionNum}">
+            `<div class="result-slide grid-x grid-padding-x correct" id="question-${questionNumber}">
               <h2 class="heading large-12 cell question-title">
                 ${currentQuestion.heading}:
                 <span class="indicator">
@@ -356,7 +355,7 @@ $( document ).ready(function() {
 
           // add question and answer to output
           output.push(
-            `<div class="result-slide grid-x grid-padding-x incorrect" id="question-${questionNum}">
+            `<div class="result-slide grid-x grid-padding-x incorrect" id="question-${questionNumber}">
               <h2 class="heading large-12 cell question-title">
                 ${currentQuestion.heading}:
                 <span class="indicator">
@@ -380,14 +379,6 @@ $( document ).ready(function() {
             </div>`
           )
       }
-      
-      // if there's a link to learn more, show it
-      if (typeof currentQuestion.link !== 'undefined'){
-        console.log('link');
-      }
-      
-      // increment question number
-      questionNum ++;
 
     }); // end of foreach
 
@@ -430,6 +421,21 @@ $( document ).ready(function() {
     //display output to html
     resultsContainer.html(output.join(''));
     $('#results-parent').removeClass('hide');
+
+    //add links, if present
+    // for each question
+    myQuestions.forEach( (currentQuestion, questionNumber) => {
+      if (typeof currentQuestion.link !== 'undefined'){
+        $("#question-"+questionNumber+" .answer-business").append(
+         `
+         <div class="link">
+          ${currentQuestion.link}
+         </div>
+         ` 
+        );
+      }
+    }); // end of for each
+
 
     //scroll to top
     window.scrollTo(0, 0);

@@ -58,7 +58,7 @@ body {
   margin-bottom: 2rem;
 }
 
-.answers, .user-answer, .correct-answer {
+.answers, .user-answer, .correct-answer, .link {
   margin-top: 1rem;
 }
 
