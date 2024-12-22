@@ -14,22 +14,22 @@ $( document ).ready(function() {
   const myQuestions = [
     {
       heading: "award",
-      questionAlt: "Myron looking into our aquarium",
-      answerAlt: "closeup of guppy in our aquarium. He is backlit with gold and blue visible on his caudal and dorsal fins",
+      questionAlt: "Myron with a shirt covering his face",
+      answerAlt: "Photo of Myron's book worm award",
       question: "What award did Myron receive at the end of his Pre-K school year?",
       answers:{
         a: "Gardener",
         b: "Most talkative",
         c: "Most creative",
-        d: "Bookworm"
+        d: "Book worm"
       },
       correctAnswer: "d",
       correctness: false
     },
     {
       heading: "theater",
-      questionAlt: "Myron smiling with his eyes closed, wearing pajamas with some food residue visible around his mouth",
-      answerAlt: "Myron smiling with his mouth open and a plate with a pancake and berries in front of him",
+      questionAlt: "Myron holding a fish toy over The Rainbow Fish book",
+      answerAlt: "Myron holding his DIY octopus costume over his face",
       question: "What part did Myron play in his summer theater camp production of The Rainbow Fish?",
       answers:{
         a: "The rainbow fish",
@@ -44,8 +44,8 @@ $( document ).ready(function() {
     },
     {
       heading: "birthday",
-      questionAlt: "Myron, Em, and Caitlin sitting around a dinner table with dirty dishes",
-      answerAlt: "Myron wearing a Batman mask",
+      questionAlt: "Myron in the back of the car surrounded by birthday balloons",
+      answerAlt: "Birthday parade group photo",
       question: "How did we celebrate Myron’s 5th Birthday",
       answers:{
         a: "A bounce house",
@@ -60,8 +60,8 @@ $( document ).ready(function() {
     },
     {
       heading: "sports",
-      questionAlt: "Myron standing on a moving sidewalk in an airport, wearing a backpack and eating water ice with a spoon",
-      answerAlt: "Myron seated in an airplane seat, throwing Mike's hand up",
+      questionAlt: "holding a plastic baseball bat against a soccer ball",
+      answerAlt: "Myron rock climbing",
       question: "What new sport did Myron and Mike participate in all year?",
       answers:{
         a: "Swimming",
@@ -74,8 +74,8 @@ $( document ).ready(function() {
     },
     {
       heading: "superlative",
-      questionAlt: "Myron seated in a stadium with a drum and bugle corps performing on the field. Myron is turning to Uncle Matt and smiling",
-      answerAlt: "Myron pushing a gate closed and looking intently at it with Grammy K in the background, standing over a bed with someone in it. Grammy K has the heels of her hand pressed against her mouth.",
+      questionAlt: "Myron in front of a giant stuffed clam",
+      answerAlt: "Myron in front of the world's largest tree near Oaxaca, Mexico",
       question: "What superlative did we see this year?",
       answers:{
         a: "The largest unsupported dome structure",
@@ -84,12 +84,14 @@ $( document ).ready(function() {
         d: "The world’s widest tree"
       },
       correctAnswer: "d",
-      correctness: false
+      correctness: false,
+      link: "https://en.wikipedia.org/wiki/%C3%81rbol_del_Tule",
+      linkText: "Learn more about el Árbol del Tule"
     },
     {
       heading: "creature",
-      questionAlt: "Myron seated on deck stairs, wearing goggles, a personal floatation device, and swim trunks and holding a pool noodle",
-      answerAlt: "Myron squirting Mike in the face with a pool noodle",
+      questionAlt: "Myron wearing a crown and a cape, pointing a magic wand at toy trees",
+      answerAlt: "Myron and Dominic in the park, wearing St. Patrick's Day costume gear",
       question: "What mythical creature did Myron hunt in our local park?",
       answers:{
         a: "A leprechaun",
@@ -102,8 +104,8 @@ $( document ).ready(function() {
     },
     {
       heading: "halloween",
-      questionAlt: "Em seated on the floor, hugging Myron and Dominic, who are both seated on her lap",
-      answerAlt: "Two ant farms on a table. Dominic is looking at one of the ant farms.",
+      questionAlt: "Matt and Myron carving a pumpkin",
+      answerAlt: "Myron in Gigantosaurus costume, with a toy dinosaur in his mouth",
       question: "What did Myron dress up as for Halloween?",
       answers:{
         a: "A robot",
@@ -112,12 +114,14 @@ $( document ).ready(function() {
         d: "A skeleton"
       },
       correctAnswer: "b",
-      correctness: false
+      correctness: false,
+      link: "https://gigantosaurus-tvseries.com/",
+      linkText: "Learn more about the TV show, Gigantosaurus"
     },
     {
       heading: "food",
-      questionAlt: "Myron wearing rain boots and walking to the side of a path in the woods",
-      answerAlt: "Myron walking aongside a miniature train bridge in the woods",
+      questionAlt: "Myron looking dismayed, wearing a sweater depicting a cat wearing a red berret, with a skillet of mac and cheese with green sprouts on top",
+      answerAlt: "Joe pointing at Myron, both seated at an outdoor food hall in Oaxaca",
       question: "When we visited a foreign city this year, what new food did Em and Myron try?",
       answers:{
         a: "Snake",
@@ -126,12 +130,14 @@ $( document ).ready(function() {
         d: "Tripe"
       },
       correctAnswer: "c",
-      correctness: false
+      correctness: false,
+      link: "https://en.wikipedia.org/wiki/Chapulines",
+      linkText: "Learn more about chapulines"
     },
     {
       heading: "phrase",
-      questionAlt: "Myron seated at the dining table with a mostly-eaten bowl of grits in front of him, wearing a bib and noise-protecting ear muffs on his head with his elbows out",
-      answerAlt: "Myron pushing buttons on the baby monitor parent unit, with an instructional video displayed on the screen",
+      questionAlt: "Group of friends and Em, Myron, and Mike, with mustache glasses on",
+      answerAlt: "Myron and Auntie Caitlin, seated at the table and laughing",
       question: "Myron spent a lot of time with Mike’s friends. What phrase did he pick up from them?",
       answers:{
         a: "Sick, man!",
@@ -144,8 +150,8 @@ $( document ).ready(function() {
     },
     {
       heading: "thanksgiving",
-      questionAlt: "Miss Molly the cat seated next to Myron while Myron draws a maze with markers",
-      answerAlt: "Myron's foot with a sock on it, stuck through the cat door",
+      questionAlt: "Our Thanksgiving group seated on the couch",
+      answerAlt: "Em slicing a delicious mushroom wellington",
       question: "We hosted Thanksgiving this year for the first time. What was Mike’s favorite dish?",
       answers:{
         a: "Acorn squash bake",
@@ -158,8 +164,8 @@ $( document ).ready(function() {
     },
     {
       heading: "california",
-      questionAlt: "Miss Molly the cat seated next to Myron while Myron draws a maze with markers",
-      answerAlt: "Myron's foot with a sock on it, stuck through the cat door",
+      questionAlt: "Shawn, Natalie, and Mike in a Yayoi Kusama art installation featuring infinity mirrors",
+      answerAlt: "Mike and Greg on a sailboat",
       question: "When Mike was in California for a baptism, from what situation did a friend have to rescue him and another friend?",
       answers:{
         a: "A bear attack",
@@ -172,8 +178,8 @@ $( document ).ready(function() {
     },
     {
       heading: "documentary",
-      questionAlt: "Miss Molly the cat seated next to Myron while Myron draws a maze with markers",
-      answerAlt: "Myron's foot with a sock on it, stuck through the cat door",
+      questionAlt: "a young Em seated in front of wood dowels",
+      answerAlt: "Still image from the Secret Mall Apartment documentary",
       question: "South by Southwest premiered a documentary featuring a 20 year old art project that Emily did in what location?",
       answers:{
         a: "Central Park, NYC",
