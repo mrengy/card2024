@@ -38,7 +38,9 @@ $( document ).ready(function() {
         d: "The seahorse"
       },
       correctAnswer: "b",
-      correctness: false
+      correctness: false,
+      link: "https://www.emandminbeantown.com/myron-does-theater-camp/",
+      linkText: "See Myron's theater camp production of The Rainbow Fish"
     },
     {
       heading: "birthday",
@@ -52,7 +54,9 @@ $( document ).ready(function() {
         d: "A robot parade"
       },
       correctAnswer: "d",
-      correctness: false
+      correctness: false,
+      link: "https://www.emandminbeantown.com/myron-is-5/",
+      linkText: "See Myron's birthday parade"
     },
     {
       heading: "sports",
@@ -179,7 +183,6 @@ $( document ).ready(function() {
       },
       correctAnswer: "c",
       correctness: false, 
-
       link: "https://www.secretmallapartment.com/",
       linkText: "Learn more about the Secret Mall Apartment documentary"
     }
