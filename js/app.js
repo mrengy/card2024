@@ -7,6 +7,7 @@ $( document ).ready(function() {
   const quizContainer = $('#quiz');
   const resultsContainer = $('#results');
   const buttonContainerHTML = $('#buttons')[0].outerHTML;
+  var questionNum = 1;
 
   // remove the button container from the DOM once HTML is stored
   $('#buttons').remove();
@@ -327,7 +328,7 @@ $( document ).ready(function() {
 
           // add question and answer to output
           output.push(
-            `<div class="result-slide grid-x grid-padding-x correct">
+            `<div class="result-slide grid-x grid-padding-x correct" id="question-${questionNum}">
               <h2 class="heading large-12 cell question-title">
                 ${currentQuestion.heading}:
                 <span class="indicator">
@@ -355,7 +356,7 @@ $( document ).ready(function() {
 
           // add question and answer to output
           output.push(
-            `<div class="result-slide grid-x grid-padding-x incorrect">
+            `<div class="result-slide grid-x grid-padding-x incorrect" id="question-${questionNum}">
               <h2 class="heading large-12 cell question-title">
                 ${currentQuestion.heading}:
                 <span class="indicator">
@@ -384,7 +385,9 @@ $( document ).ready(function() {
       if (typeof currentQuestion.link !== 'undefined'){
         console.log('link');
       }
-
+      
+      // increment question number
+      questionNum ++;
 
     }); // end of foreach
 
