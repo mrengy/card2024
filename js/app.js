@@ -13,34 +13,18 @@ $( document ).ready(function() {
 
   const myQuestions = [
     {
-      heading: "award",
-      questionAlt: "Myron with a shirt covering his face",
-      answerAlt: "Photo of Myron's book worm award",
-      question: "What award did Myron receive at the end of his Pre-K school year?",
+      heading: "sports",
+      questionAlt: "holding a plastic baseball bat against a soccer ball",
+      answerAlt: "Myron rock climbing",
+      question: "What new sport did Myron and Mike participate in all year?",
       answers:{
-        a: "Gardener",
-        b: "Most talkative",
-        c: "Most creative",
-        d: "Book worm"
-      },
-      correctAnswer: "d",
-      correctness: false
-    },
-    {
-      heading: "theater",
-      questionAlt: "Myron holding a fish toy over The Rainbow Fish book",
-      answerAlt: "Myron holding his DIY octopus costume over his face",
-      question: "What part did Myron play in his summer theater camp production of The Rainbow Fish?",
-      answers:{
-        a: "The rainbow fish",
-        b: "The octopus",
-        c: "The blue fish",
-        d: "The seahorse"
+        a: "Swimming",
+        b: "Rock climbing",
+        c: "Break dancing",
+        d: "Skateboarding"
       },
       correctAnswer: "b",
-      correctness: false,
-      link: "https://www.emandminbeantown.com/myron-does-theater-camp/",
-      linkText: "See Myron's theater camp production of The Rainbow Fish"
+      correctness: false
     },
     {
       heading: "birthday",
@@ -59,17 +43,17 @@ $( document ).ready(function() {
       linkText: "See Myron's birthday parade"
     },
     {
-      heading: "sports",
-      questionAlt: "holding a plastic baseball bat against a soccer ball",
-      answerAlt: "Myron rock climbing",
-      question: "What new sport did Myron and Mike participate in all year?",
+      heading: "creature",
+      questionAlt: "Myron wearing a crown and a cape, pointing a magic wand at toy trees",
+      answerAlt: "Myron and Dominic in the park, wearing St. Patrick's Day costume gear",
+      question: "What mythical creature did Myron hunt in our local park?",
       answers:{
-        a: "Swimming",
-        b: "Rock climbing",
-        c: "Break dancing",
-        d: "Skateboarding"
+        a: "A leprechaun",
+        b: "A fairy",
+        c: "A sasquatch",
+        d: "A unicorn"
       },
-      correctAnswer: "b",
+      correctAnswer: "a",
       correctness: false
     },
     {
@@ -89,17 +73,79 @@ $( document ).ready(function() {
       linkText: "Learn more about el Árbol del Tule"
     },
     {
-      heading: "creature",
-      questionAlt: "Myron wearing a crown and a cape, pointing a magic wand at toy trees",
-      answerAlt: "Myron and Dominic in the park, wearing St. Patrick's Day costume gear",
-      question: "What mythical creature did Myron hunt in our local park?",
+      heading: "food",
+      questionAlt: "Myron looking dismayed, wearing a sweater depicting a cat wearing a red berret, with a skillet of mac and cheese with green sprouts on top",
+      answerAlt: "Joe pointing at Myron, both seated at an outdoor food hall in Oaxaca",
+      question: "When we visited a foreign city this year, what new food did Em and Myron try?",
       answers:{
-        a: "A leprechaun",
-        b: "A fairy",
-        c: "A sasquatch",
-        d: "A unicorn"
+        a: "Snake",
+        b: "Scorpions",
+        c: "Grasshoppers",
+        d: "Tripe"
       },
-      correctAnswer: "a",
+      correctAnswer: "c",
+      correctness: false,
+      link: "https://en.wikipedia.org/wiki/Chapulines",
+      linkText: "Learn more about chapulines"
+    },
+    {
+      heading: "award",
+      questionAlt: "Myron with a shirt covering his face",
+      answerAlt: "Photo of Myron's book worm award",
+      question: "What award did Myron receive at the end of his Pre-K school year?",
+      answers:{
+        a: "Gardener",
+        b: "Most talkative",
+        c: "Most creative",
+        d: "Book worm"
+      },
+      correctAnswer: "d",
+      correctness: false
+    },
+    {
+      heading: "documentary",
+      questionAlt: "a young Em seated in front of wood dowels",
+      answerAlt: "Still image from the Secret Mall Apartment documentary",
+      question: "South by Southwest premiered a documentary featuring a 20 year old art project that Emily did in what location?",
+      answers:{
+        a: "Central Park, NYC",
+        b: "Salem College",
+        c: "Providence Place Mall",
+        d: "Cranston Street Armory"
+      },
+      correctAnswer: "c",
+      correctness: false, 
+      link: "https://www.secretmallapartment.com/",
+      linkText: "Learn more about the Secret Mall Apartment documentary"
+    },
+    {
+      heading: "theater",
+      questionAlt: "Myron holding a fish toy over The Rainbow Fish book",
+      answerAlt: "Myron holding his DIY octopus costume over his face",
+      question: "What part did Myron play in his summer theater camp production of The Rainbow Fish?",
+      answers:{
+        a: "The rainbow fish",
+        b: "The octopus",
+        c: "The blue fish",
+        d: "The seahorse"
+      },
+      correctAnswer: "b",
+      correctness: false,
+      link: "https://www.emandminbeantown.com/myron-does-theater-camp/",
+      linkText: "See Myron's theater camp production of The Rainbow Fish"
+    },
+    {
+      heading: "california",
+      questionAlt: "Shawn, Natalie, and Mike in a Yayoi Kusama art installation featuring infinity mirrors",
+      answerAlt: "Mike and Greg on a sailboat",
+      question: "When Mike was in California for a baptism, from what situation did a friend have to rescue him and another friend?",
+      answers:{
+        a: "A bear attack",
+        b: "A capsized sailboat",
+        c: "A snake bite",
+        d: "Getting stranded on the freeway"
+      },
+      correctAnswer: "b",
       correctness: false
     },
     {
@@ -117,22 +163,6 @@ $( document ).ready(function() {
       correctness: false,
       link: "https://gigantosaurus-tvseries.com/",
       linkText: "Learn more about the TV show, Gigantosaurus"
-    },
-    {
-      heading: "food",
-      questionAlt: "Myron looking dismayed, wearing a sweater depicting a cat wearing a red berret, with a skillet of mac and cheese with green sprouts on top",
-      answerAlt: "Joe pointing at Myron, both seated at an outdoor food hall in Oaxaca",
-      question: "When we visited a foreign city this year, what new food did Em and Myron try?",
-      answers:{
-        a: "Snake",
-        b: "Scorpions",
-        c: "Grasshoppers",
-        d: "Tripe"
-      },
-      correctAnswer: "c",
-      correctness: false,
-      link: "https://en.wikipedia.org/wiki/Chapulines",
-      linkText: "Learn more about chapulines"
     },
     {
       heading: "phrase",
@@ -161,36 +191,6 @@ $( document ).ready(function() {
       },
       correctAnswer: "b",
       correctness: false
-    },
-    {
-      heading: "california",
-      questionAlt: "Shawn, Natalie, and Mike in a Yayoi Kusama art installation featuring infinity mirrors",
-      answerAlt: "Mike and Greg on a sailboat",
-      question: "When Mike was in California for a baptism, from what situation did a friend have to rescue him and another friend?",
-      answers:{
-        a: "A bear attack",
-        b: "A capsized sailboat",
-        c: "A snake bite",
-        d: "Getting stranded on the freeway"
-      },
-      correctAnswer: "b",
-      correctness: false
-    },
-    {
-      heading: "documentary",
-      questionAlt: "a young Em seated in front of wood dowels",
-      answerAlt: "Still image from the Secret Mall Apartment documentary",
-      question: "South by Southwest premiered a documentary featuring a 20 year old art project that Emily did in what location?",
-      answers:{
-        a: "Central Park, NYC",
-        b: "Salem College",
-        c: "Providence Place Mall",
-        d: "Cranston Street Armory"
-      },
-      correctAnswer: "c",
-      correctness: false, 
-      link: "https://www.secretmallapartment.com/",
-      linkText: "Learn more about the Secret Mall Apartment documentary"
     }
   ]
 
